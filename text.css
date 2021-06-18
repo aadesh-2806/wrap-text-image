@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+    background: #111;
+    color: #fff;
+    min-height: 100vh;
+    padding: 60px;
+    overflow-x: hidden;
+}
+h3{
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+p{
+    position: relative;
+    letter-spacing: 2px;
+    text-align: justify;
+    
+}
+img{
+    width: 200px;
+}
+img:nth-child(1){
+    float: left;
+    shape-outside: url(boy1.png);
+    shape-margin: 20px;
+}
+img:nth-child(2){
+    float: right;
+    shape-outside: url(boy2.png);
+    shape-margin: 20px;
+}
